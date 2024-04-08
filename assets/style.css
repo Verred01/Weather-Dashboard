@@ -1,0 +1,71 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1px;
+    padding: 1px;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+    font: bold;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    background-color: goldenrod; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top left, rgb(255, 95, 32), rgb(253, 244, 184));
+}
+
+.five-day-weather {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    background: none;
+    justify-content: center;
+    margin: 5px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#search-history {
+    margin: 5px;
+}
+
+#current-weather {
+    font-size: 30px;
+}
+
+.card {
+    color: white;
+    background-color: rgb(114, 196, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(71, 108, 255), rgb(192, 241, 252));
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 18px;
+    margin: 4px;
+}
+
+.searchHistoryBtn {
+    background-color: rgb(114, 196, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(71, 108, 255), rgb(192, 241, 252));
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#searchBtn {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgb(209, 2, 2);
+}
